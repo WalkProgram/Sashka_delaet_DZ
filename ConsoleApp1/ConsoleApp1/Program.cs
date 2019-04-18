@@ -25,11 +25,11 @@ namespace ConsoleApp1
             Console.WriteLine(result4);
             Console.ReadKey();
 
-            Console.WriteLine("Вводите число №1");
+            Console.WriteLine("Пиши циферку №1");
             int firstNumber = int.Parse(Console.ReadLine());
             Console.WriteLine("Вводите знак операции");
             string sign = Console.ReadLine();
-            Console.WriteLine("Вводите число №2");
+            Console.WriteLine("Пиши циферку №2");
             int secondNumber = int.Parse(Console.ReadLine());
 
             int result5 = 0;
