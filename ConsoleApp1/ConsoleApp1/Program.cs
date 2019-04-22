@@ -30,7 +30,7 @@ namespace ConsoleApp1
 
             Console.WriteLine("Пиши циферку №1");
             int firstNumber = int.Parse(Console.ReadLine());
-            Console.WriteLine("Вводите знак операции");
+            Console.WriteLine("Вводи знак операции");
             string sign = Console.ReadLine();
             Console.WriteLine("Пиши циферку №2");
             int secondNumber = int.Parse(Console.ReadLine());
