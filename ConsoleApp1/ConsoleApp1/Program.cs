@@ -25,6 +25,9 @@ namespace ConsoleApp1
             Console.WriteLine(result4);
             Console.ReadKey();
 
+            Write("Ну и здрасти");
+            Write("Ну и досвидания");
+
             Console.WriteLine("Пиши циферку №1");
             int firstNumber = int.Parse(Console.ReadLine());
             Console.WriteLine("Вводите знак операции");
@@ -83,9 +86,9 @@ namespace ConsoleApp1
         }
             static void Write(string str)
         {
-            Console.WriteLine("Vitalik, smotri kak ya himichu");
-            Console.WriteLine(str);
-            Console.WriteLine("Vo ya psih");
+             Console.WriteLine("Vitalik, smotri kak ya himichu");
+             Console.WriteLine(str);
+             Console.WriteLine("Vo ya psih");
         }
 
         static int Plus( int numeral1, int numeral2)
